@@ -11,6 +11,6 @@ public class GlobalCarbon : MonoBehaviour
     void Update()
     {
         InternalCarbon = CarbonCount;
-        CarbonDisplay.GetComponent<Text>().text = "Carbon Points:" + InternalCarbon;
+        CarbonDisplay.GetComponent<Text>().text = "Carbon Points: " + InternalCarbon;
     }
 }
