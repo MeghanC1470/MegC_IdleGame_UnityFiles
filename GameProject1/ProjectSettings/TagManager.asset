@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Frontlines
+    uniqueID: 3093762597
+    locked: 0
