@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class MainClickerScript : MonoBehaviour
 {
     public GameObject textBox;
 
     public void ClickTheButton()
     {
-        textBox.SetActive(true);
+        GlobalCarbon.CarbonCount += 1;
     }
 }
