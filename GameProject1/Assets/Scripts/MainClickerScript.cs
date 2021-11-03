@@ -9,6 +9,5 @@ public class MainClickerScript : MonoBehaviour
     public void ClickTheButton()
     {
         GlobalCarbon.CarbonCount += 1;
-        GlobalCalcium.CalciumCount += 2;
     }
 }
